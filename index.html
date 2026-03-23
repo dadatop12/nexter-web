@@ -2,17 +2,105 @@
 <html>
 <head>
     <title>Nexter 🚀</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin-top: 80px;
+        }
+
+        .desc {
+            margin-top: 20px;
+            font-size: 20px;
+            opacity: 0.85;
+        }
+
+        .download-btn {
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 12px;
+            background: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #45a049;
+            transform: scale(1.05);
+        }
+
+        .features {
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 15px;
+            width: 220px;
+        }
+
+        footer {
+            margin-top: 80px;
+            opacity: 0.6;
+            font-size: 14px;
+        }
+    </style>
 </head>
-<body style="text-align:center; font-family:sans-serif; padding-top:100px;">
+
+<body>
 
     <h1>Nexter 🚀</h1>
-    <p>Download your programming language</p>
 
-    <a href="Nexter.zip" download>
-        <button style="font-size:20px; padding:10px;">
-            Download Nexter
-        </button>
+    <!-- Sono Damiano, un giovane sviluppatore che si diverte a sperimentare nel mondo dell'informatica e a divertirsi con questo "gioco" che adoro! -->
+    <p class="desc">
+        Scrivi qui una breve descrizione del tuo linguaggio.
+        (es: "Nexter is a simple programming language designed for beginners")
+    </p>
+
+    <!-- DOWNLOAD -->
+    <a href="https://dadatop12.github.io/nexter-web/nexter.zip">
+        <button class="download-btn">Download Nexter</button>
     </a>
+
+    <!-- FEATURES -->
+    <div class="features">
+
+        <div class="card">
+            <h3>Easy</h3>
+            <p>Simple and readable syntax</p>
+        </div>
+
+        <div class="card">
+            <h3>Fast</h3>
+            <p>Run your code instantly</p>
+        </div>
+
+        <div class="card">
+            <h3>Powerful</h3>
+            <p>Create real programs easily</p>
+        </div>
+
+    </div>
+
+    <footer>
+        Nexter Language 🚀
+    </footer>
 
 </body>
 </html>
