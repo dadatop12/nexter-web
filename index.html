@@ -6,8 +6,8 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            font-family: Arial;
+            background: #0f172a;
             color: white;
             text-align: center;
         }
@@ -17,88 +17,51 @@
             margin-top: 80px;
         }
 
-        .desc {
-            margin-top: 20px;
-            font-size: 20px;
-            opacity: 0.85;
-        }
-
-        .download-btn {
-            margin-top: 30px;
+        .btn {
             padding: 15px 30px;
             font-size: 20px;
+            background: #22c55e;
             border: none;
-            border-radius: 12px;
-            background: #4CAF50;
+            border-radius: 10px;
             color: white;
             cursor: pointer;
-            transition: 0.3s;
         }
 
-        .download-btn:hover {
-            background: #45a049;
-            transform: scale(1.05);
-        }
-
-        .features {
+        .learn {
             margin-top: 100px;
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            flex-wrap: wrap;
         }
 
-        .card {
-            background: rgba(255,255,255,0.1);
+        pre {
+            background: black;
             padding: 20px;
-            border-radius: 15px;
-            width: 220px;
-        }
-
-        footer {
-            margin-top: 80px;
-            opacity: 0.6;
-            font-size: 14px;
+            border-radius: 10px;
+            display: inline-block;
+            text-align: left;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>Nexter 🚀</h1>
+<h1>Nexter 🚀</h1>
 
-    <!-- Sono Damiano, un giovane sviluppatore che si diverte a sperimentare nel mondo dell'informatica e a divertirsi con questo "gioco" che adoro! -->
-    <p class="desc">
-        Nexter è un linguaggio di programmazione facile, veloce e potente creato da me, Damiano, un giovane sviluppatore appassionato di informatica. Mi diverto a sperimentare e a creare nuovi progetti, e Nexter è uno dei miei giochi preferiti. Avrei voluto averlo anch'io quando ho iniziato a programmare...    </p>
+<p>Hi, I'm Dadatop12, a young developer who loves coding. Stay tuned for updates!</p>
 
-    <!-- DOWNLOAD -->
-    <a href="https://dadatop12.github.io/nexter-web/nexter.zip">
-        <button class="download-btn">Download Nexter</button>
-    </a>
+<a href="https://dadatop12.github.io/nexter-web/nexter.zip">
+    <button class="btn">Download</button>
+</a>
 
-    <!-- FEATURES -->
-    <div class="features">
+<div class="learn">
+    <h2>Learn Nexter</h2>
 
-        <div class="card">
-            <h3>Easy</h3>
-            <p>Simple and readable syntax</p>
-        </div>
+    <pre>
+say "Hello"
 
-        <div class="card">
-            <h3>Fast</h3>
-            <p>Run your code instantly</p>
-        </div>
+name = ask "Your name?"
 
-        <div class="card">
-            <h3>Powerful</h3>
-            <p>Create real programs easily</p>
-        </div>
-
-    </div>
-
-    <footer>
-        Nexter Language 🚀
-    </footer>
+say "Hello {name}"
+    </pre>
+</div>
 
 </body>
 </html>
