@@ -1,106 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Nexter 🚀</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Nexter</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<nav>
-    <h1>Nexter 🚀</h1>
-    <div>
-        <a href="#home">Home</a>
-        <a href="#learn">Learn</a>
-        <a href="#examples">Examples</a>
-        <a href="#download">Download</a>
-    </div>
-</nav>
+<header>
+    <img src="assets/logo.png" class="logo">
+    <h1>Nexter</h1>
+</header>
 
-<section id="home">
-    <h2>Build fast. Code simple.</h2>
-    <p><!-- QUI METTI LA TUA DESCRIZIONE --></p>
-    <a href="#download"><button>Download</button></a>
+<section class="hero">
+    <h2>Il linguaggio più semplice per iniziare 🚀</h2>
+    <p>Impara a programmare in pochi minuti</p>
+
+    <a href="learn.html" class="btn">Inizia a imparare</a>
+    <a href="playground.html" class="btn">Prova online</a>
 </section>
-
-<section id="learn">
-    <h2>Learn Nexter</h2>
-
-    <div class="card">
-        <h3>Say (output)</h3>
-        <pre>say "Hello World"</pre>
-    </div>
-
-    <div class="card">
-        <h3>Variables</h3>
-        <pre>
-name = "Dami"
-say name
-        </pre>
-    </div>
-
-    <div class="card">
-        <h3>Input</h3>
-        <pre>
-name = ask "Your name?"
-say name
-        </pre>
-    </div>
-
-    <div class="card">
-        <h3>If</h3>
-        <pre>
-if name == "Dami":
-    say "Welcome"
-        </pre>
-    </div>
-
-    <div class="card">
-        <h3>Loops</h3>
-        <pre>
-repeat 3:
-    say "Hi"
-        </pre>
-    </div>
-
-    <div class="card">
-        <h3>Functions</h3>
-        <pre>
-fun hello:
-    say "Hello"
-
-hello
-        </pre>
-    </div>
-
-</section>
-
-<section id="examples">
-    <h2>Examples</h2>
-
-    <div class="card">
-        <pre>
-name = ask "Name?"
-if name == "Admin":
-    say "Access granted"
-else:
-    say "Denied"
-        </pre>
-    </div>
-
-</section>
-
-<section id="download">
-    <h2>Download Nexter</h2>
-
-    <a href="https://github.com/dadatop12/nexter-web/releases/latest/download/nexter.zip">
-        <button class="big">Download</button>
-    </a>
-
-</section>
-
-<footer>
-    <p>Made with Nexter 🚀</p>
-</footer>
 
 </body>
 </html>
