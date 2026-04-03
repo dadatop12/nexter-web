@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Impara Nexter</title>
+    <title>Learn Nexter</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<h1>Impara Nexter</h1>
+<div class="blob left"></div>
+<div class="blob right"></div>
 
-<div class="lesson">
-    <h2>Hello World</h2>
-    <p>Il tuo primo programma:</p>
+<header>
+    <img src="assets/logo.png" class="logo">
 
-    <pre>say "Hello World"</pre>
-</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="learn.html">Learn</a>
+        <a href="about.html">Chi siamo</a>
+    </nav>
+</header>
 
-<div class="lesson">
-    <h2>Variabili</h2>
-    <pre>
-x = 5
-say x
-    </pre>
-</div>
+<section class="content">
+    <h1>Impara Nexter</h1>
 
-<div class="lesson">
-    <h2>Condizioni</h2>
-    <pre>
-if x == 5:
-    say "uguale"
-    </pre>
-</div>
+    <h2>Come funziona</h2>
+    <p>Nexter è un linguaggio semplice basato su comandi leggibili.</p>
+
+    <h2>Sintassi base</h2>
+
+    <div class="code">
+        say "Hello World"
+    </div>
+
+    <div class="code">
+        x = 5
+        say x
+    </div>
+
+    <div class="code">
+        if x == 5:
+            say "uguale"
+    </div>
+
+    <div class="code">
+        repeat 3:
+            say "ciao"
+    </div>
+
+    <div class="code">
+        fun somma a b:
+            return a + b
+    </div>
+
+</section>
 
 </body>
 </html>
